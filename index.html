@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barco Pirata</title>
+    <link rel="stylesheet" href="./assets/css/style01.css">
+    
+</head>
+<body>
+    <h1>Imagen de Barco Pirata</h1>
+    <img src="./assets/img/barco pirata.jpg" alt="Barco Pirata en el mar" id="pirateImage">
+
+    <script>
+        const pirateImage = document.getElementById('pirateImage');
+        pirateImage.addEventListener('click', () => {
+            // Alternar la clase para el borde rojo
+            if (pirateImage.classList.contains('red-border')) {
+                pirateImage.classList.remove('red-border');
+            } else {
+                pirateImage.classList.add('red-border');
+            }
+        });
+    </script>
+</body>
+</html>

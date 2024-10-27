@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+h1 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.selector-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+select {
+    padding: 5px;
+    font-size: 16px;
+    width: 50px;
+    text-align: center;
+}
+button {
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+#mensaje {
+    margin-top: 10px;
+    font-weight: bold;
+}

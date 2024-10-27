@@ -1,0 +1,8 @@
+img {
+    width: 300px;
+    cursor: pointer;
+    transition: border 0.3s ease;
+}
+.red-border {
+    border: 2px solid red;
+}
